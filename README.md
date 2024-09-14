@@ -80,11 +80,11 @@ We welcome contributions to the MCS project! If you would like to contribute, pl
 
 Please ensure that your code adheres to the project's coding standards and includes tests for any new functionality.
 
-For more details, visit the project repository at [GitHub Repository]([https://github.com/your-repo-link](https://github.com/ghgltggamers/MCS---Molten-Controll-System)).
+For more details, visit the project repository at [GitHub Repository](https://github.com/ghgltggamers/MCS---Molten-Controll-System).
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
