@@ -6,6 +6,22 @@
 
 Developed by **ghgltggamer**, MCS serves as both a practical tool for system control and an educational resource for those interested in learning more about C++ and command-line interfaces. It’s completely free and open-source, ensuring accessibility and safety for all users.
 
+## Purpose of Source Files
+
+The source files in the MCS project are organized to provide a modular and clean structure for both functionality and ease of understanding. Here’s a brief overview of each key source file:
+
+- **`main.cpp`**  
+  This is the entry point of the application. It initializes the system, prints the startup message, and enters an infinite loop where it processes user commands. This file demonstrates basic C++ syntax and usage of standard libraries, including file operations and command-line interactions.
+
+- **`extensions.hpp`**  
+  This header file includes all the custom file extensions and dependencies required by the project. It imports standard C++ libraries and custom headers like `commands.hpp` and `str_extracter.hpp`. This file is essential for defining which external functionalities are available to the rest of the project.
+
+- **`commands.hpp`**  
+  This file contains the definitions and implementations of various commands that the MCS system can process. It includes functions for executing commands such as `print`, `sys`, and `cpp.__exec__()`. This file showcases how command processing can be implemented in C++.
+
+- **`extensions/str_extracter.hpp`**  
+  This header file provides functionality for extracting specific strings from files. It includes the `str_extracter` function, which reads a file and extracts a substring based on a specified pattern. This file is useful for demonstrating file handling and string manipulation in C++.
+
 ## Commands
 
 The MCS system supports a variety of commands to interact with and control the system. Below is a list of available commands along with their descriptions:
@@ -64,11 +80,11 @@ We welcome contributions to the MCS project! If you would like to contribute, pl
 
 Please ensure that your code adheres to the project's coding standards and includes tests for any new functionality.
 
-For more details, visit the project repository at [GitHub Repository](https://github.com/your-repo-link).
+For more details, visit the project repository at [GitHub Repository]([https://github.com/your-repo-link](https://github.com/ghgltggamers/MCS---Molten-Controll-System)).
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
 
 ---
 
