@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Open Source C++ CLI System</h1>
+        <nav>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#usage">Usage</a></li>
+                <li><a href="#api">API</a></li>
+                <li><a href="#contributing">Contributing</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="container">
+        <section id="overview">
+            <h2>Overview</h2>
+            <p>Welcome to the documentation for the C++ CLI-based system. This software allows you to control various aspects of your system through a command-line interface.</p>
+        </section>
+        
+        <section id="usage">
+            <h2>Usage</h2>
+            <h3>Basic Commands</h3>
+            <p>To get started, use the following commands:</p>
+            <pre><code class="language-shell"># List all available commands
+cli-tool --help
+
+# Execute a command
+cli-tool --run <command></code></pre>
+        </section>
+        
+        <section id="api">
+            <h2>API Reference</h2>
+            <h3>Function Signature</h3>
+            <pre><code class="language-cpp">void executeCommand(const std::string& command);</code></pre>
+            
+            <h3>Parameters</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Parameter</th>
+                        <th>Type</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>command</td>
+                        <td>std::string</td>
+                        <td>The command to execute</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="contributing">
+            <h2>Contributing</h2>
+            <p>We welcome contributions to the project. To contribute, please follow these steps:</p>
+            <ol>
+                <li>Fork the repository</li>
+                <li>Make your changes in a new branch</li>
+                <li>Submit a pull request</li>
+            </ol>
+            
+            <h3>Feedback Form</h3>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="5" required></textarea>
+                
+                <button type="submit">Submit Feedback</button>
+            </form>
+            
+            <h3>Preferences</h3>
+            <form>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="notifications"> Receive notifications</label>
+                </div>
+                <div class="radio-group">
+                    <label><input type="radio" name="theme" value="light" checked> Light Theme</label>
+                    <label><input type="radio" name="theme" value="dark"> Dark Theme</label>
+                </div>
+                <label for="language">Preferred Language:</label>
+                <select id="language" name="language">
+                    <option value="cpp">C++</option>
+                    <option value="python">Python</option>
+                    <option value="java">Java</option>
+                </select>
+                <button type="submit">Save Preferences</button>
+            </form>
+            
+            <div class="alert success">
+                <strong>Success!</strong> Your feedback has been submitted.
+            </div>
+            
+            <div class="alert error">
+                <strong>Error!</strong> There was a problem with your submission.
+            </div>
+        </section>
+    </main>
+</body>
+</html>
